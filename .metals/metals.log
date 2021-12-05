@@ -1,0 +1,27 @@
+[0m2021.11.01 23:27:09 INFO  Started: Metals version 0.10.8 in workspace '/Users/xiezhaohui/IdeaProjects/study' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.01 23:27:10 INFO  time: initialize in 1s[0m
+[0m2021.11.01 23:27:11 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.01 23:27:11 WARN  no build tool detected in workspace '/Users/xiezhaohui/IdeaProjects/study'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.01 23:27:12 WARN  no build target for: /Users/xiezhaohui/IdeaProjects/study/scala-study/src/Hello.scala[0m
+[0m2021.11.01 23:27:36 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.01 23:29:10 INFO  time: code lens generation in 1m51s[0m
+[0m2021.11.01 23:29:10 INFO  time: code lens generation in 2.87s[0m
+[0m2021.11.01 23:29:10 INFO  time: code lens generation in 1m46s[0m
+[0m2021.11.01 23:29:10 INFO  time: code lens generation in 1m57s[0m
+[0m2021.11.01 23:30:09 WARN  no build target for: /Users/xiezhaohui/IdeaProjects/study/scala-study/src/ceshi.scala[0m
+十一月 01, 2021 11:30:38 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+[0m2021.11.02 00:28:27 WARN  no build target for: /Users/xiezhaohui/IdeaProjects/study/scala-study/src/ceshi.scala[0m
+[0m2021.11.02 00:29:04 WARN  no build target for: /Users/xiezhaohui/IdeaProjects/study/scala-study/src/ceshi.scala[0m
+[0m2021.11.02 00:29:06 WARN  no build target for: /Users/xiezhaohui/IdeaProjects/study/scala-study/src/ceshi.scala[0m
+[0m2021.11.02 10:46:03 INFO  shutting down Metals[0m
+[0m2021.11.09 16:04:35 INFO  Started: Metals version 0.10.9 in workspace '/Users/xiezhaohui/IdeaProjects/study' for client Visual Studio Code 1.62.0.[0m
+[0m2021.11.09 16:04:36 INFO  time: initialize in 0.86s[0m
+[0m2021.11.09 16:04:37 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.09 16:04:37 WARN  no build tool detected in workspace '/Users/xiezhaohui/IdeaProjects/study'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.09 16:04:37 WARN  no build target for: /Users/xiezhaohui/IdeaProjects/study/scala-study/src/ceshi.scala[0m
+[0m2021.11.09 16:04:43 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.09 16:05:16 INFO  time: code lens generation in 39s[0m
+[0m2021.11.09 16:05:16 INFO  time: code lens generation in 7.54s[0m
+[0m2021.11.09 16:05:16 INFO  time: code lens generation in 5.61s[0m
+[0m2021.11.09 16:28:54 INFO  shutting down Metals[0m
