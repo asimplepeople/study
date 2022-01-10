@@ -24,6 +24,10 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class SpringBootPasswordEncryptionApplicationTest {
 
+    /**
+     * java 自带的加解密
+     * @throws Exception
+     */
     @Test
     void login() throws Exception {
         String password = "123456";
@@ -41,14 +45,20 @@ class SpringBootPasswordEncryptionApplicationTest {
         System.out.println("对加密后对数据解密：" + decrypt(encrypt,privateKey));
     }
 
+    /**
+     * hutool工具非对称加密
+     */
     @Test
     void hutoolLogin(){
-        //
         RSA rsa = SecureUtil.rsa();
         System.out.println(rsa.getPublicKeyBase64());
         System.out.println(rsa.getPrivateKeyBase64());
         String encrypt = rsa.encryptBase64("123456", KeyType.PublicKey);
+        String encrypt1 = rsa.encryptBase64("123456", KeyType.PublicKey);
+        System.out.println("1：" + encrypt);
+        System.out.println("2：" + encrypt1);
         System.out.println(rsa.decryptStr(encrypt, KeyType.PrivateKey));
+        System.out.println(rsa.decryptStr(encrypt1, KeyType.PrivateKey));
     }
 
 
@@ -102,5 +112,6 @@ class SpringBootPasswordEncryptionApplicationTest {
         String outStr = new String(cipher.doFinal(inputByte));
         return outStr;
     }
+
 
 }
