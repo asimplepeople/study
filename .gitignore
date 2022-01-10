@@ -2,3 +2,4 @@ go-study/pkg/**
 go-study/bin/**
 **/.idea
 **/target
+.idea
