@@ -7,7 +7,7 @@ import java.util.*;
 public class LeeCode_1233 {
 
     public static void main(String[] args) {
-        String[] arr = {"/a", "/a/b", "/c/d", "/c/d/e", "/c/f"};
+        String[] arr = {"/a", "/a/b"/*, "/c/d", "/c/d/e", "/c/f"*/};
         System.out.println(removeSubfolders1(arr));
     }
 
@@ -34,10 +34,13 @@ public class LeeCode_1233 {
             List<String> path = split(folder[i]);
             Trie cur = root;
             for (String name : path) {
+                // 不存在则创建
                 cur.children.putIfAbsent(name, new Trie());
+                // cur 变更为子节点
                 cur = cur.children.get(name);
             }
-            cur.ref = i; 
+            // 子节点设置为序号
+            cur.ref = i;
         }
 
         List<String> ans = new ArrayList<String>();
